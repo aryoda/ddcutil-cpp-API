@@ -58,12 +58,16 @@ Apply the following steps if you clone and build the repo for the first time:
    ```
    ./configure
    make
-   sudo make install
+   # sudo make install   # not required!
    ```
    In case of problems (e. g. missing libraries or build tools) follow the original build instructions of `ddcutil`: http://www.ddcutil.com/building/
 
+   Check that the `ddcutil` binaries have been built successfully: You must find the libraries (mainly `libddcutil.so`) in the sub folder `src/.libs/`
+   
+4. TODO: Build the Qt project...
 
 
+   
 # License
 
 GPL-3
