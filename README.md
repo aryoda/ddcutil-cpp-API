@@ -1,4 +1,4 @@
-# ddcutil cpp API
+# ddcutil C++ API (library)
 
 A C++ wrapper for the C-based library ddcutil to provide a clean API for C++ without exposing the C details
 
@@ -13,6 +13,18 @@ For details see:
 * ddcutil home page: http://www.ddcutil.com/
 * ddcutil source code: https://github.com/rockowitz/ddcutil
 * Qt-base user interface using `ddcutil`: https://github.com/rockowitz/ddcui
+
+
+
+# Goals
+
+1. Provide a pure C++ API that encapsulates all ddcutil's C API calls (no need to know them)
+1. Use exceptions to encapsulate C API status return codes and reduce if cascades
+1. Care for the correct allocation/deallocation of memory and C API handles (e. g. via smart pointers like unique_ptr and shared_ptr)
+1. Use only STL containers (and can be compiled "stand-alone" and is independent of any GUI framework like Qt)
+1. Supports logging (with any logging framework)
+1. The API shall be thread-safe and support async calls via multi-threading for a better user-experience
+1. Support for easy unit testing of clients (e. g. mocking of physical displays)
 
 
 
