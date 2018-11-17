@@ -45,7 +45,7 @@ BTW: The `ddcutil` source code will be included in the build process using a Git
 
 
 
-# 1st time building
+# 1st-time building from the sources
 
 Apply the following steps if you clone and build the repo for the first time:
 
