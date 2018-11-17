@@ -19,9 +19,11 @@ UML modelling in progress, first C++ implementation planned as next step...
 
 # Artefacts and Tools
 
+You can find the UML models and other concepts in the `concepts` sub folder of this repository
+
 The UML models (class diagrams etc.) are maintained using the **Umbrello UML Modeler** (https://umbrello.kde.org/).
 
-You can find the UML models and other concepts in the `concepts` sub folder of this repository
+The UML models are stored using the `XMI` file format so you can use other UML tools too.
 
 
 
