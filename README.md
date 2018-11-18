@@ -20,7 +20,7 @@ For details see:
 
 1. Provide a pure C++ API that encapsulates all ddcutil's C API calls (no need to know them)
 1. Use exceptions to encapsulate C API status return codes and reduce if cascades
-1. Care for the correct allocation/deallocation of memory and C API handles (e. g. via smart pointers like unique_ptr and shared_ptr)
+1. Care for the correct allocation/deallocation of memory and C API handles (e. g. via [smart pointers](https://en.cppreference.com/w/cpp/memory) like `unique_ptr` and `shared_ptr`)
 1. Use only STL containers (and can be compiled "stand-alone" and is independent of any GUI framework like Qt)
 1. Supports logging (with any logging framework)
 1. The API shall be thread-safe and support async calls via multi-threading for a better user-experience
