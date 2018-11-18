@@ -1,6 +1,6 @@
 # ddcutil C++ API (library)
 
-A C++ wrapper for the C-based library ddcutil to provide a clean API for C++ without exposing the C details
+A C++ wrapper library for the C-based library [ddcutil](http://www.ddcutil.com/) to provide a clean API for C++ without exposing the C details
 
 `ddcutil` is a Linux command line program including a C-API for managing monitor settings,
 such as brightness, color levels, and input source by communicating with monitors using command that are standardized in the
@@ -30,7 +30,10 @@ For details see:
 
 # Current Status
 
-UML modelling in progress, first C++ implementation planned as next step...
+Experimential!
+
+- UML modelling in progress
+- first C++ implementation planned as next step...
 
 
 
